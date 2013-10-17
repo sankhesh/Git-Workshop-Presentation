@@ -1,6 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Cherry+Swash);
-@import url(http://fonts.googleapis.com/css?family=Gravitas+One);
-
+@import url(http://fonts.googleapis.com/css?family=Montaga);
 
 @font-face {
   font-family: 'Ubuntu';
@@ -176,12 +174,13 @@ a:focus {
 }
 
 #title .try {
-    font-family: 'Cherry Swash', Open Sans, sans-serif;
-    font-size: 80px;
+    font-family: 'Montaga', Open Sans, sans-serif;
+    font-size: 100px;
     position: inherit;
     top: -0.5em;
-    left: 3.0em;
-
+    left: 2.0em;
+	color: #210B61;
+	
     -webkit-transform: translateZ(20px);
     -moz-transform:    translateZ(20px);
     -ms-transform:     translateZ(20px);
@@ -190,11 +189,10 @@ a:focus {
 }
 
 #title h1 {
-	/* font-family: 'Gravitas One', Open Sans, sans-serif; */
-    font-size: 200px;
+	font-size: 225px;
 	position: inherit; 
-    top: -1.25em;
-	color: #2E2E2E;
+    top: -1.35em;
+	color: #210B61;
 	
     -webkit-transform: translateZ(50px);
     -moz-transform:    translateZ(50px);
@@ -207,8 +205,9 @@ a:focus {
 	font-size: 35px;
 	text-align: left;
 	position: absolute; 
-    top: 8.5em;
-	left: 0.5em;
+    top: 4.5em;
+	left: 1.0em;
+	color: #210B61;
 	/* vertical-align: bottom; */
 	
     /* -webkit-transform: translateX(70px);
