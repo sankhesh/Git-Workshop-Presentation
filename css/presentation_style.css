@@ -1,3 +1,6 @@
+@import url(http://fonts.googleapis.com/css?family=Cherry+Swash);
+@import url(http://fonts.googleapis.com/css?family=Gravitas+One);
+
 
 @font-face {
   font-family: 'Ubuntu';
@@ -173,10 +176,11 @@ a:focus {
 }
 
 #title .try {
-    font-size: 64px;
-    position: absolute;
+    font-family: 'Cherry Swash', Open Sans, sans-serif;
+    font-size: 80px;
+    position: inherit;
     top: -0.5em;
-    left: 1.5em;
+    left: 3.0em;
 
     -webkit-transform: translateZ(20px);
     -moz-transform:    translateZ(20px);
@@ -186,8 +190,12 @@ a:focus {
 }
 
 #title h1 {
-    font-size: 190px;
-
+	/* font-family: 'Gravitas One', Open Sans, sans-serif; */
+    font-size: 200px;
+	position: inherit; 
+    top: -1.25em;
+	color: #2E2E2E;
+	
     -webkit-transform: translateZ(50px);
     -moz-transform:    translateZ(50px);
     -ms-transform:     translateZ(50px);
@@ -196,14 +204,18 @@ a:focus {
 }
 
 #title h2 {
-	font-size: 70px;
+	font-size: 35px;
 	text-align: left;
-
-    -webkit-transform: translateX(70px);
+	position: absolute; 
+    top: 8.5em;
+	left: 0.5em;
+	/* vertical-align: bottom; */
+	
+    /* -webkit-transform: translateX(70px);
     -moz-transform:    translateX(70px);
     -ms-transform:     translateX(70px);
     -o-transform:      translateX(70px);
-    transform:         translateX(70px);
+    transform:         translateX(70px); */
 }	
 
 #title .footnote {
