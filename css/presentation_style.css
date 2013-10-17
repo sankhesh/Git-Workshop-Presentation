@@ -104,6 +104,26 @@ a:focus {
     display: none;
 }
 
+.code {
+    background: black;
+    font-family: monospace;
+    color: white;
+}
+.pre code {
+        padding: 5px;
+        overflow: auto;
+        max-height: 400px;
+        word-wrap: normal;
+}
+.pre.stretch code {
+        height: 100%;
+        max-height: 100%;
+
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+}
+
 .step {
     position: relative;
     width: 900px;
@@ -120,7 +140,7 @@ a:focus {
     font-size: 48px;
     line-height: 1.5;
 }
-
+    
 .impress-enabled .step {
     margin: 0;
     opacity: 0.3;
