@@ -1,12 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Montaga);
-
-@font-face {
-  font-family: 'Ubuntu';
-  font-style: light;
-  font-weight: normal;
-  src: url(http://fonts.googleapis.com/css?family=Ubuntu:300,300italic);
-  src: local('Ubuntu'), local('Ubuntu'), url('../fonts/Ubuntu/Ubuntu-Light.ttf') format('truetype');
-}
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,300italic);
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
