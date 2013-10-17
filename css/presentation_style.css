@@ -105,9 +105,9 @@ a:focus {
 }
 
 .code {
-    background: black;
+    background: #6E6E6E;
     font-family: monospace;
-    color: white;
+    color: #F5DA81;
 }
 .pre code {
         padding: 5px;
@@ -184,6 +184,9 @@ a:focus {
 
 .slide .head {
     color: #210B61;
+	font-size: 80px;
+	top: -0.7em;
+	position: relative;
 }
 
 #title {
