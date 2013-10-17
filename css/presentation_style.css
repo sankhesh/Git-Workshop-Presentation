@@ -117,8 +117,8 @@ a:focus {
     text-align: justify;
     padding: 2px;
  }
- 
-.step {
+
+ .step {
     position: relative;
     width: 900px;
     padding: 40px;
@@ -138,7 +138,7 @@ a:focus {
 .step .footref{
     position: absolute;
     font-size: 20px; 
-    bottom: -220px;
+    bottom: 0px;
     right: 0px;
 }
     
@@ -155,9 +155,20 @@ a:focus {
 
 .impress-enabled .step.active { opacity: 1 }
 
+.imgslide {
+    display: block;
+    width: 1000px;
+    height: 700px;
+    padding: 0px;
+    margin: 0 auto;
+  
+    position: absolute;
+
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
 .slide {
     display: block;
-
     width: 900px;
     height: 700px;
     padding: 40px 60px;
@@ -247,29 +258,29 @@ a:focus {
 }
 
 #history .im1 {
-    position: absolute;
-    left: -300px;
-    top: -300px;
-    height: 100;
-    width: 200;
+    position: inherit;
+    top: 0px;
+    left: 0px;
+    height: 45%;
+    width: 30%;
     z-index: -1;
 }
 
 #history .im2 {
-    position: absolute;
-    right: -300px;
-    top: -300px;
-    height: 300;
-    width: 200;
+    position: inherit;
+    right: 0px;
+    top: 0px;
+    height: 45%;
+    width: 35%;
     z-index: -3;
 }
 
 #history .im3 {
-    position: absolute;
-    bottom: -300px;
-    left: 160px;
-    height: 30;
-    width: 20;
+    position: inherit;
+    bottom: 0px;
+    left: 280px;
+    height: 70%;
+    width: 45%;
     z-index: -5;
 }
 
