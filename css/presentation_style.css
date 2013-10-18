@@ -365,6 +365,17 @@ a:focus {
     width: 100%;
     z-index: -1;
 }
+ 
+#clone .code {
+	background: #6E6E6E;
+    font-family: 'Inconsolata', Open Sans;
+    color: #F5DA81;
+    text-align: justify;
+    padding: 2px;
+	width: 1100px;
+	position: fixed;
+	Left: -90px
+} 
 
 #overview { display: none }
 
