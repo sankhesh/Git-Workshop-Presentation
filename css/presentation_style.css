@@ -109,6 +109,7 @@ a:focus {
     list-style-type:disc;
     list-style-position:inside;
     text-align: justify;
+	width: 1000px;
 }
 .code {
     background: #6E6E6E;
