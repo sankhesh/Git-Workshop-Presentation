@@ -383,7 +383,11 @@ a:focus {
 	position: fixed;
 	Left: -90px
 } 
-
+#branching .step .slide {
+	height: 200px;
+	top: -1em;
+}	
+	
 #overview { display: none }
 
 .impress-on-overview .step {
